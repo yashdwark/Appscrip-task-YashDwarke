@@ -1,27 +1,26 @@
 <template>
-    <div class="parent-container">
-  <div class="child-container">
-    <div class="left">
-      <p>items</p>
-      <p>Hide Filter</p>
-    </div>
-    <div class="right">
-      <div class="dropdown">RECOMMENDED
-        <img src="/assets/arrow-left.png" alt="">
+  <div class="parent-container">
+    <div class="child-container">
+      <div class="left">
+        <p>items</p>
+        <p>Hide Filter</p>
+      </div>
+      <div class="right">
+        <div class="dropdown">
+          RECOMMENDED
+          <img src="/assets/arrow-left.png" alt="" />
+        </div>
       </div>
     </div>
+    <LeftItembar />
   </div>
-  <LeftItembar/>
-</div>
-  
-  
 </template>
 <script>
-import LeftItembar from './LeftItembar.vue';
+import LeftItembar from './LeftItembar.vue'
 export default {
-    components:{
-        LeftItembar
-    }
+  components: {
+    LeftItembar,
+  },
 }
 </script>
 <style scoped>
@@ -33,8 +32,8 @@ export default {
   max-width: 1248px;
   margin: 0 auto;
 }
-.parent-container{
-    width: 100%;
+.parent-container {
+  width: 100%;
   max-width: 1248px;
 }
 .left {
@@ -57,14 +56,14 @@ export default {
   color: #888792;
 }
 .right {
-  font-family: 'Norm'sans-serif;
+  font-family: 'Norm' sans-serif;
   font-size: 15px;
   font-weight: 700;
   line-height: 40px;
   text-align: left;
 }
-.dropdown{
-    display: flex;
-    align-items: center;
+.dropdown {
+  display: flex;
+  align-items: center;
 }
 </style>

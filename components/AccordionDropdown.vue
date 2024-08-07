@@ -43,6 +43,7 @@ export default {
   border-radius: 5px;
 }
 
+
 /* .accordion-item {
   border-bottom: 1px solid #ccc;
 } */

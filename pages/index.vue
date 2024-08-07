@@ -2,16 +2,16 @@
   <div>
     <NavBar />
     <ShopPage />
-    <ItemsBar/>
-    <FooterComponent/>
+    <ItemsBar />
+    <FooterComponent />
   </div>
 </template>
 
 <script>
-import NavBar from '~/components/NavBar.vue';
-import ShopPage from '~/components/ShopPage.vue';
-import ItemsBar from '~/components/ItemsBar.vue';
-import FooterComponent from '~/components/FooterComponent.vue';
+import NavBar from '~/components/NavBar.vue'
+import ShopPage from '~/components/ShopPage.vue'
+import ItemsBar from '~/components/ItemsBar.vue'
+import FooterComponent from '~/components/FooterComponent.vue'
 
 export default {
   name: 'IndexPage',
@@ -19,13 +19,13 @@ export default {
     NavBar,
     ShopPage,
     ItemsBar,
-    FooterComponent
-  }
+    FooterComponent,
+  },
 }
 </script>
 
 <style scoped>
-div{
+div {
   margin: 0;
   padding: 0;
 }

@@ -5,21 +5,19 @@
       <label for="Customizble">Customizble</label>
     </div>
     <div class="dropdown">
-      <AccordionDropdown :items="accordionItems" />  
+      <AccordionDropdown :items="accordionItems" />
       <ProductGrid :products="products" />
-
     </div>
-   
   </div>
 </template>
 <script>
-import AccordionDropdown from './AccordionDropdown.vue';
-import ProductGrid from './ProductGrid.vue';
+import AccordionDropdown from './AccordionDropdown.vue'
+import ProductGrid from './ProductGrid.vue'
 
 export default {
   components: {
     AccordionDropdown,
-    ProductGrid
+    ProductGrid,
   },
   data() {
     return {
@@ -60,7 +58,7 @@ export default {
       products: [
         {
           id: 1,
-          name: 'PPXOC Milkyway dress in pressed flowers', 
+          name: 'PPXOC Milkyway dress in pressed flowers',
           content: 'Sign in or Create an account to see pricing',
           image: '/assets/Product_Image.png',
         },
@@ -106,24 +104,22 @@ export default {
           content: 'Sign in or Create an account to see pricing',
           image: '/assets/Product_Image.png',
         },
-      
       ],
     }
   },
 }
 </script>
 <style scoped>
-
 .checkbox {
   border-bottom: 1px solid;
 }
 .dropdown {
   display: flex;
-  padding:5% ;
+  padding: 5%;
   /* align-items: center; */
   gap: 10%;
   justify-content: space-between;
-  width:100%; 
+  width: 100%;
 }
 
 .dropdown-button {

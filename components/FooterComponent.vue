@@ -169,6 +169,7 @@ ul li {
   }
 }
 
+
 @media (max-width: 480px) {
   .footer .left,
   .footer .right,

@@ -8,7 +8,6 @@
       <nuxt-link to="/" class="navbar-logo-text">
         <h1>LOGO</h1>
       </nuxt-link>
-
       <ul class="nav-menu">
         <li class="nav-item">
           <nuxt-link to="/" class="nav-links">
